@@ -5,16 +5,25 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 Features:
 
 Home Page: Welcoming introduction with a personal profile picture and overview.
-About Me (Me): Detailed profile including education, career change story, technical skills, soft skills, and hobbies.
+
+About Me: Detailed profile including education, career change story, technical skills, soft skills, and hobbies.
+
 Projects: Highlights of key projects including:
+
 	BayAirportRides – A comprehensive database design for an airport ride app.
 	ResumeReadyRoll – A frontend design project to help users create resumes quickly.
 	A Quick Game – Interactive drag-and-drop game to learn healthy vs unhealthy foods.
+
 Photography: A gallery showcasing my photography work.
+
 Resume: Viewable resume with a dark-themed background effect.
+
 Contact: Contact form to get in touch.
+
 Sidebar & Footer: Persistent navigation and social links for easy access.
+
 Interactive Game: HTML5 drag-and-drop game with instant feedback.
+
 
 Technologies Used:
 
