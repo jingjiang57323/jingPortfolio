@@ -1,8 +1,9 @@
-Portfolio Website
+Portfolio Website:
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, photography, and resume, along with an interactive drag-and-drop game to make learning fun. Built using React, React Router, and HTML5/JS for the game section.
 
-Features
+Features:
+
 Home Page: Welcoming introduction with a personal profile picture and overview.
 About Me (Me): Detailed profile including education, career change story, technical skills, soft skills, and hobbies.
 Projects: Highlights of key projects including:
@@ -15,13 +16,15 @@ Contact: Contact form to get in touch.
 Sidebar & Footer: Persistent navigation and social links for easy access.
 Interactive Game: HTML5 drag-and-drop game with instant feedback.
 
-Technologies Used
+Technologies Used:
+
 Frontend: React, JavaScript, CSS, HTML5
 Routing: React Router
 Game: HTML5 Drag-and-Drop API, JavaScript
 Styling: Inline styles, CSS for layout, animations, and responsiveness
 
-Getting Started
+Getting Started:
+
 1. Clone the repository to your local machine:
 git clone https://github.com/jingjiang57323/jingPortfolio.git
 2. Navigate into the project folder:
@@ -32,7 +35,8 @@ npm install
 npm start
 Open http://localhost:3000 in your browser to see the portfolio.
 
-Folder Structure
+Folder Structure:
+
 /src
   /components
     Footer.tsx
@@ -61,18 +65,21 @@ Folder Structure
 /App.tsx
 /App.css
 
-Interactive Game
+Interactive Game:
+
 The game is accessible from the Projects page.
 Users drag food items into the correct category: Healthy, Tricky, or Unhealthy.
 Instant feedback is provided; correct drops stay in place, incorrect items shake.
 Upon completion, a success page displays with a congratulations message.
 
-Usage
+Usage:
+
 Explore each page through the navigation bar or sidebar.
 Play the interactive game to learn about nutrition in a fun way.
 Use the Contact page to send messages directly.
 
-Design & UI Notes
+Design & UI Notes:
+
 Fully responsive layout for desktop and mobile.
 Smooth transitions for hover effects and animations.
 Sidebar with quick social media links.
