@@ -22,12 +22,13 @@ Game: HTML5 Drag-and-Drop API, JavaScript
 Styling: Inline styles, CSS for layout, animations, and responsiveness
 
 Getting Started
-1. Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-2. Install dependencies
+1. Clone the repository to your local machine:
+git clone https://github.com/jingjiang57323/jingPortfolio.git
+2. Navigate into the project folder:
+cd jingPortfolio
+3. Install dependencies
 npm install
-3. Run the development server
+4. Run the development server
 npm start
 Open http://localhost:3000 in your browser to see the portfolio.
 
