@@ -37,6 +37,7 @@ Open http://localhost:3000 in your browser to see the portfolio.
 
 Folder Structure:
 
+```text
 /src
   /components
     Footer.tsx
@@ -64,6 +65,8 @@ Folder Structure:
       success.html
 /App.tsx
 /App.css
+```
+
 
 Interactive Game:
 
