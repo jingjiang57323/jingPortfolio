@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* #sidebar {
+  position: fixed;
+  right: 0;
+  top: 500px;
+  width: 60px;
+  height: 200px;
+  background-color: #ebeaeacb;
+  text-align: center;
+  border-radius: 10px 0 0 10px;
+} */
+

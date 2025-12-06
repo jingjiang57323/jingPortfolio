@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(251, 250, 248);
+    /* background-size: cover; */
+    /* background-position: center; */
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100%;
+}
+.container {
+    color: #fbfafa;
+    text-align: center;
+    margin-top: 60px;
+    background-image: url("/asset/game/food.jpg");
+    height: 200px;
+    background-size: cover;
+
+}
+.container p{
+    background-color: rgba(0, 0, 0, 0.784);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 60px;
+    color: white;
+    width: 50%;
+}
+
+#play{
+    /* margin-top: 20px; */
+    padding: 15px 15px;
+    font-size: 18px;
+    background-color: #124f21;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.dd1{
+    width: 95%;
+    height: 300px;
+    border: 3px solid #060606;
+    border-radius: 12%;
+    margin: 10px;
+    background-color: #ecebeb;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+
+}
+.dd2{
+    width: 450px;
+    height: 200px;
+    border: 3px solid #060606;
+    background-color:#fe9176;
+    border-radius: 10%;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.dd3{
+    width: 450px;
+    height: 200px;
+    border: 3px solid #000000;
+    background-color:#c1f68f;
+    border-radius: 10%;
+    text-align: center;
+    padding-left: 20px;
+    margin-right: auto;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.dd4{
+    width: 450px;
+    height: 200px;
+    border: 3px solid #060606;
+    background-color:#79dffe;
+    border-radius: 10%;
+    text-align: center;
+    padding-left: 20px;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.game-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    justify-items: center;
+    align-items: center;
+    margin: 5%;
+    
+}
+
+.items-section{
+    grid-column: 1/2;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+.results-container{
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;  
+    color: #333;
+    margin-top: 100px;
+}
+
+h4{
+    font-size: 16px;
+    color: #0a0000;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.itemElement {
+    border: 1px solid #fbfbfa;
+    padding: 8px 12px;
+    border-radius: 25%;
+    background: rgb(255, 255, 255);
+    cursor: grab;
+    width: 10%;
+    height: 12%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.shake {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  60% { transform: translateX(-10px); }
+  80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+}

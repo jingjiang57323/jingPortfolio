@@ -13,17 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +24,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Make the root html/body take full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Wrap the entire app in a flex column */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+.main-content {
+  flex: 1;
+}
+
+.nav_links {
+    list-style: none;
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0;    
+}
+
+.nav_links li a {
+    padding: 0px;
+    margin: 0; 
+    text-decoration: none;
+    color: rgb(125, 124, 124);
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav_links li a:hover {
+    color: rgb(245, 96, 46);
+}
+
+.resumeBg {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.body-resume-dark {
+  background-color: rgb(126, 121, 121);
+  transition: background-color 2s ease;
 }

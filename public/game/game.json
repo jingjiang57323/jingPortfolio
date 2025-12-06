@@ -1,0 +1,84 @@
+{
+
+    "healthyFood" : [
+        {
+            "id": 1,
+            "name": "Oats",
+            "category": "healthy"
+        },
+        {
+            "id": 2,
+            "name": "Blueberries",
+            "category": "healthy"
+        },
+        {
+            "id": 3,
+            "name": "Almonds",
+            "category": "healthy"
+        },      
+        {
+            "id": 4,
+            "name": "Spinach",
+            "category": "healthy"
+        },  
+        {
+            "id": 5,
+            "name": "Salmon",
+            "category": "healthy"
+        }
+    ],
+    "trickyFood" : [
+        {
+            "id": 6,
+            "name": "Granola Bars",
+            "category": "tricky"
+        },
+        {
+            "id": 7,
+            "name": "Flavored Yogurt",
+            "category": "tricky"
+        },
+        {
+            "id": 8,
+            "name": "Veggie Chips",
+            "category": "tricky"
+        },      
+        {
+            "id": 9,
+            "name": "Fruit Juice",
+            "category": "tricky"
+        },  
+        {
+            "id": 10,
+            "name": "Energy Drinks",
+            "category": "tricky"
+        }
+    ],
+    "unhealthyFood" : [
+        {
+            "id": 11,
+            "name": "Soda",
+            "category": "junk"
+        },
+        {
+            "id": 12,
+            "name": "Fried Chicken",
+            "category": "junk"
+        },
+        {
+            "id": 13,
+            "name": "Potato Chips",
+            "category": "junk"
+        },      
+        {
+            "id": 14,
+            "name": "Sugary Donuts",
+            "category": "junk"
+        },  
+        {
+            "id": 15,
+            "name": "Instant Noodles",
+            "category": "junk"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+.pic{
+    position: relative;
+    margin: 5%;
+    margin-top: 10%;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.card{
+    position: relative;
+    /* border: 20px double rgb(249, 249, 248); */
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+}
+
+.pic img{
+    width: 200px;
+    height: 230px;
+    padding-top: 11%;
+    
+}
+.img{
+    transition: transform 0.5s ease-in-out;
+}
+.info{
+    position: relative;
+    /* top: 50px; */
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+    transition-delay: 0.5s;
+}
+/* Pseudo-classes for :hover to enhance interactivity on image and info */
+.card:hover .img{
+    transform: translateY(-100px) scale(2);
+    opacity: 1;
+}
+.card:hover .info{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(5px);
+}

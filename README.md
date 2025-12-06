@@ -1,46 +1,79 @@
-# Getting Started with Create React App
+Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal portfolio website! This project showcases my skills, projects, photography, and resume, along with an interactive drag-and-drop game to make learning fun. Built using React, React Router, and HTML5/JS for the game section.
 
-## Available Scripts
+Features
+Home Page: Welcoming introduction with a personal profile picture and overview.
+About Me (Me): Detailed profile including education, career change story, technical skills, soft skills, and hobbies.
+Projects: Highlights of key projects including:
+	BayAirportRides – A comprehensive database design for an airport ride app.
+	ResumeReadyRoll – A frontend design project to help users create resumes quickly.
+	A Quick Game – Interactive drag-and-drop game to learn healthy vs unhealthy foods.
+Photography: A gallery showcasing my photography work.
+Resume: Viewable resume with a dark-themed background effect.
+Contact: Contact form to get in touch.
+Sidebar & Footer: Persistent navigation and social links for easy access.
+Interactive Game: HTML5 drag-and-drop game with instant feedback.
 
-In the project directory, you can run:
+Technologies Used
+Frontend: React, JavaScript, CSS, HTML5
+Routing: React Router
+Game: HTML5 Drag-and-Drop API, JavaScript
+Styling: Inline styles, CSS for layout, animations, and responsiveness
 
-### `npm start`
+Getting Started
+1. Clone the repository
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+2. Install dependencies
+npm install
+3. Run the development server
+npm start
+Open http://localhost:3000 in your browser to see the portfolio.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Folder Structure
+/src
+  /components
+    Footer.tsx
+    Sidebar.tsx
+  /pages
+    Home.tsx
+    Me.tsx
+    Projects.tsx
+    Photography.tsx
+    Resume.tsx
+    Contact.tsx
+/public
+  /asset
+    /home
+    /me
+    /project
+    /photography
+    /resume
+    /contact
+    /game
+      game.html
+      game.css
+      game.js
+      game.json
+      success.html
+/App.tsx
+/App.css
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Interactive Game
+The game is accessible from the Projects page.
+Users drag food items into the correct category: Healthy, Tricky, or Unhealthy.
+Instant feedback is provided; correct drops stay in place, incorrect items shake.
+Upon completion, a success page displays with a congratulations message.
 
-### `npm test`
+Usage
+Explore each page through the navigation bar or sidebar.
+Play the interactive game to learn about nutrition in a fun way.
+Use the Contact page to send messages directly.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Design & UI Notes
+Fully responsive layout for desktop and mobile.
+Smooth transitions for hover effects and animations.
+Sidebar with quick social media links.
+Dark background effect for Resume page to highlight the document.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

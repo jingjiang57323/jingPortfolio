@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+    
+</head>
+<body>
+    <div class="container">
+        <p>Welcome to the Game</p>
+    </div>
+
+    <div class="game-container">
+        <div class="items-section">
+            <p style="font-size: 21px;"><b>Start drag and drop! </b></p>
+            <button id="play">GO</button>
+            <p style="font-size: 21px;"><b> Put each item in the right container.</b></p>
+            <!-- an container element for all items-->
+            <div id="items-container" class="dd1">  </div>
+        </div>
+        <!-- three separate drop zones for the three categories of items -->
+        <div class="results-container">
+            <h4>Healthy Food</h4> 
+            <div id="healthy-container" class="dd2"> 
+                
+            </div>
+            <h4>Tricky Food</h4> 
+            <div id="tricky-container" class="dd3"> 
+                
+            </div>
+            <h4>Unhealthy Food</h4> 
+            <div id="unhealthy-container" class="dd4"> 
+                
+            </div>
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>
