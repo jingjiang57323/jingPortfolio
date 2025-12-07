@@ -1,8 +1,8 @@
 import React from "react";
-import insIcon from "./asset/sidebar/ins.png";
-import fbIcon from "./asset/sidebar/fb.png";
-import linkedinIcon from "./asset/sidebar/linkedin.png";
-import twitterIcon from "./asset/sidebar/twitter.png";
+import insIcon from "./pages/asset/sidebar/ins.png";
+import fbIcon from "./pages/asset/sidebar/fb.png";
+import linkedinIcon from "./pages/asset/sidebar/linkedin.png";
+import twitterIcon from "./pages/asset/sidebar/twitter.png";
 
 export default function Sidebar() {
   const sideBar: React.CSSProperties = {
