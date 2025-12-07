@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jingPortfolio/static/css/main.b9f6c204.css",
-    "main.js": "/jingPortfolio/static/js/main.574a6c50.js",
+    "main.js": "/jingPortfolio/static/js/main.23f481f2.js",
     "static/media/img_5.jpg": "/jingPortfolio/static/media/img_5.ca777d9c35f30412125a.jpg",
     "static/media/img_4.jpg": "/jingPortfolio/static/media/img_4.3b9128e848e2a3266fe4.jpg",
     "static/media/me1.png": "/jingPortfolio/static/media/me1.ed15e8196acd08d64b84.png",
@@ -13,17 +13,19 @@
     "static/media/Lens.png": "/jingPortfolio/static/media/Lens.b74b712a9e12d7420343.png",
     "static/media/project2.png": "/jingPortfolio/static/media/project2.71434a986d60631680a7.png",
     "static/media/img_3.jpg": "/jingPortfolio/static/media/img_3.6c4196ceb15928913478.jpg",
+    "static/media/ins.png": "/jingPortfolio/static/media/ins.a040f75f87ca63b1850d.png",
     "static/media/Resume.png": "/jingPortfolio/static/media/Resume.3ef28e389dc582d11b1a.png",
     "static/media/img_2.jpg": "/jingPortfolio/static/media/img_2.709a4e0225ca54d3a019.jpg",
     "static/media/img_1.jpg": "/jingPortfolio/static/media/img_1.2dd2a8e687a26f2cf721.jpg",
     "static/media/p3.png": "/jingPortfolio/static/media/p3.58f452444fcc6a128a35.png",
+    "static/media/fb.png": "/jingPortfolio/static/media/fb.eec205067877f16fb3f3.png",
     "static/media/pro3.png": "/jingPortfolio/static/media/pro3.b1b422e5d307df9c94d5.png",
     "index.html": "/jingPortfolio/index.html",
     "main.b9f6c204.css.map": "/jingPortfolio/static/css/main.b9f6c204.css.map",
-    "main.574a6c50.js.map": "/jingPortfolio/static/js/main.574a6c50.js.map"
+    "main.23f481f2.js.map": "/jingPortfolio/static/js/main.23f481f2.js.map"
   },
   "entrypoints": [
     "static/css/main.b9f6c204.css",
-    "static/js/main.574a6c50.js"
+    "static/js/main.23f481f2.js"
   ]
 }

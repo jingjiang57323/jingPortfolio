@@ -15,7 +15,7 @@ body {
     color: #fbfafa;
     text-align: center;
     margin-top: 60px;
-    background-image: url("/asset/game/food.jpg");
+    background-image: url("food.jpg");
     height: 200px;
     background-size: cover;
 
