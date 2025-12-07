@@ -90,7 +90,7 @@ function createEle(itemElement){
 
 // Success notification
 function showSuccessMessage() {
-    window.location.href = "./success.html";
+    window.location.href = process.env.PUBLIC_URL +"./success.html";
 }
 
 // Check for completion
