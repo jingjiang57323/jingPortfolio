@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/jingPortfolio/static/css/main.b9f6c204.css",
-    "main.js": "/jingPortfolio/static/js/main.98fc4423.js",
+    "main.js": "/jingPortfolio/static/js/main.87d95631.js",
+    "static/media/homePagePic.jpg": "/jingPortfolio/static/media/homePagePic.4552ba1a14cf9a2dbeaa.jpg",
     "index.html": "/jingPortfolio/index.html",
     "main.b9f6c204.css.map": "/jingPortfolio/static/css/main.b9f6c204.css.map",
-    "main.98fc4423.js.map": "/jingPortfolio/static/js/main.98fc4423.js.map"
+    "main.87d95631.js.map": "/jingPortfolio/static/js/main.87d95631.js.map"
   },
   "entrypoints": [
     "static/css/main.b9f6c204.css",
-    "static/js/main.98fc4423.js"
+    "static/js/main.87d95631.js"
   ]
 }
