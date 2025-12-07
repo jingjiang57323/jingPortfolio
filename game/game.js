@@ -90,7 +90,7 @@ function createEle(itemElement){
 
 // Success notification
 function showSuccessMessage() {
-    window.location.href = "/game/success.html";
+    window.location.href = "./success.html";
 }
 
 // Check for completion
