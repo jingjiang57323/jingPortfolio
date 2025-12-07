@@ -90,7 +90,7 @@ function createEle(itemElement){
 
 // Success notification
 function showSuccessMessage() {
-    window.location.href = process.env.PUBLIC_URL +"./success.html";
+    alert('Congratulations! You have sorted all items correctly!');
 }
 
 // Check for completion
