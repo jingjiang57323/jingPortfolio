@@ -41,7 +41,7 @@ export default function Home() {
     return (
       <div style={welcomediv as React.CSSProperties}>
           <div >
-              <img style={profilePicStyle as React.CSSProperties} src="%PUBLIC_URL%/asset/homepage/homePagePic.jpg" alt="Profile Picture" />
+              <img style={profilePicStyle as React.CSSProperties} src={process.env.PUBLIC_URL + "/asset/homepage/homePagePic.jpg"} alt="Profile Picture" />
           </div>
           <div style={welcomeText as React.CSSProperties}>
               <h1 style={welcomeTextH1 as React.CSSProperties}>Hi There!</h1>
