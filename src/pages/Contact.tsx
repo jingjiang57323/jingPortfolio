@@ -1,4 +1,5 @@
 import React from "react";
+import imgContact from './asset/contact/contact.jpeg';
 
 export default function Contact() {
   const formBox: React.CSSProperties = {
@@ -11,7 +12,7 @@ export default function Contact() {
 
   return (
     <div >
-      <img src="./asset/contact/contact.jpeg" alt="Contact" />
+      <img src={imgContact} alt="Contact" />
       <p style={{ textAlign: 'center', marginBottom: '30px', color: '#027c6eff', fontWeight: 'bold', fontSize: '21px' }}>If you ever want to chat, ask a question, or just say hi, I’d love to hear from you.</p>
       <form>
         <div style={formBox}>
