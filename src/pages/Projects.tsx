@@ -2,7 +2,7 @@ import React from "react";
 import imgp1 from "./asset/project/project2.png";
 import imgp2 from "./asset/project/p3.png";
 import imgp3 from "./asset/project/pro3.png";
-import imgp4 from "./asset/project/pro4.png";
+import imgp4 from "./asset/project/pro2.png";
 import imgp5 from "./asset/project/dragAndDrop.jpeg"
 import imgp6 from "./asset/project/game1.png";
 
