@@ -48,7 +48,7 @@ export default function Projects() {
       <div style={c1}>
         <div style={c2}>
           <h1><i>1. BayAirportRides</i> </h1>
-          <img style={{width:"200px", height:"200px", borderRadius:"8%"}} src="/asset/project/project2.png" alt="BayAirportRides" />
+          <img style={{width:"200px", height:"200px", borderRadius:"8%"}} src="./asset/project/project2.png" alt="BayAirportRides" />
         </div>
         <div style={c3}>
           <p style={{lineHeight:"2", fontSize:"18px"}}> I designed a comprehensive <b>database</b> for BayAirportRides, an app that 
@@ -61,7 +61,7 @@ export default function Projects() {
           <br />
           <br />
           <div style={{display: "flex", gap: "65px", justifyContent: "center"}}>
-            <img style={{width:"750px", height:"400px" , borderRadius:"8%"}} src="/asset/project/pro3.png" alt="A Quick Game?" />
+            <img style={{width:"750px", height:"400px" , borderRadius:"8%"}} src="./asset/project/pro3.png" alt="A Quick Game?" />
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ export default function Projects() {
       <div style={c1}>
         <div style={c2}>
           <h1><i>2. ResumeReadyRoll</i> </h1>
-          <img style={{width:"200px", height:"200px", borderRadius:"8%"}} src="/asset/project/p3.png" alt="ResumeReadyRoll" />
+          <img style={{width:"200px", height:"200px", borderRadius:"8%"}} src="./asset/project/p3.png" alt="ResumeReadyRoll" />
         </div>
         <div style={c3}>
           <p style={{lineHeight:"2", fontSize:"18px"}}>ResumeReadyRoll is a web application designed to help users create professional resumes quickly 
@@ -81,7 +81,7 @@ export default function Projects() {
           <br />
           <br />
           <div style={{display: "flex", gap: "65px", justifyContent: "center"}}>
-              <img style={{width:"750px", height:"400px" , borderRadius:"8%"}} src="/asset/project/pro2.png" alt="A Quick Game?" />
+              <img style={{width:"750px", height:"400px" , borderRadius:"8%"}} src="./asset/project/pro2.png" alt="A Quick Game?" />
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ export default function Projects() {
       <div style={{...c1, marginBottom: "100px"}}>
         <div style={c2}>
           <h1><i>3. A Quick Game?</i> </h1>
-          <img style={{width:"200px", height:"200px", borderRadius:"8%"}} src="/asset/project/dragAndDrop.jpeg" alt="A Quick Game?" />
+          <img style={{width:"200px", height:"200px", borderRadius:"8%"}} src="./asset/project/dragAndDrop.jpeg" alt="A Quick Game?" />
         </div>
         <div style={c3}>
           <p style={{lineHeight:"2", fontSize:"18px"}}>
@@ -103,7 +103,7 @@ export default function Projects() {
           </p>
           
           <div style={{display: "flex", gap: "65px", justifyContent: "center", marginBottom: "60px"}}>
-              <img style={{width:"750px", height:"400px" , borderRadius:"8%"}} src="/asset/project/game1.png" alt="A Quick Game?" />
+              <img style={{width:"750px", height:"400px" , borderRadius:"8%"}} src="./asset/project/game1.png" alt="A Quick Game?" />
           </div>
 
           <p style={{fontSize:"30px", color: "#d62de6ff", textAlign: "center"}}>

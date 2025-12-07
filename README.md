@@ -58,15 +58,16 @@ Folder Structure:
     Photography.tsx
     Resume.tsx
     Contact.tsx
+    /asset
+      /home
+      /me
+      /project
+      /photography
+      /resume
+      /contact
 /public
-  /asset
-    /home
-    /me
-    /project
-    /photography
-    /resume
-    /contact
-    /game
+  index.html
+  /game
       game.html
       game.css
       game.js

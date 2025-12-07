@@ -49,7 +49,7 @@ export default function Me() {
       <h1 style={{ fontSize: "100px", marginBottom: "100px", textShadow: "5px -5px 5px #26688fff" }}>About Me</h1>
       <div style={{ marginBottom: "40px" , display: "flex", flexDirection: "row", alignItems: "center", gap: "100px"}}>
         <p style={{textAlign: "left", lineHeight: "2", marginLeft: "20px"}}><b>Name:</b> {me.name} <br /><br /><b>Education:</b>  {me.education} <br /><br /><b>Career Change:</b>  {me.careerChange}</p>
-        <img style={{width: "500px", height: "400px", borderRadius: "45%"}} src="/asset/me/me1.png" alt="Me" />
+        <img style={{width: "500px", height: "400px", borderRadius: "45%"}} src="./asset/me/me1.png" alt="Me" />
       </div>
 
        <p style={{ marginBottom: "60px", fontSize: "20px", lineHeight: "2", textAlign: "center" , textShadow: "2px 2px 4px #989898ff" , backgroundColor: "#e8e8e8ff", padding: "20px", borderRadius: "10px"}}>
@@ -57,7 +57,7 @@ export default function Me() {
       </p>
 
       <div style={{ margin: "80px" , display: "flex", flexDirection: "row", alignItems: "center", gap: "320px"}}>
-        <img style={{width: "500px", height: "600px", borderRadius: "45%"}} src="/asset/me/me2.png" alt="Me" />
+        <img style={{width: "500px", height: "600px", borderRadius: "45%"}} src="./asset/me/me2.png" alt="Me" />
         <div style={{ marginBottom: "40px" , display: "flex", flexDirection: "column", alignItems: "center", gap: "10px"}} >
           <ul style={{textAlign: "center", listStyleType: "none"}} >
             <li style={{marginBottom: "20px", fontWeight: "bold", fontSize: "28px"}}>Technical Skills</li>
