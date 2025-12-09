@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Me from "./pages/Me";
@@ -11,7 +11,7 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="App">
         <div className="main-content">
           <nav style={{ padding: "10px", background: "#f5f5f5ff" }}>
@@ -37,7 +37,7 @@ function App() {
         <Sidebar />
         <Footer />
       </div>
-    </HashRouter>
+    </BrowserRouter>
     
 
   );

@@ -9,13 +9,10 @@ Home Page: Welcoming introduction with a personal profile picture and overview.
 
 About Me: Detailed profile including education, career change story, technical skills, soft skills, and hobbies.
 
-Projects: Highlights of key projects including:
-
-	BayAirportRides – A comprehensive database design for an airport ride app.
-
-	ResumeReadyRoll – A frontend design project to help users create resumes quickly.
-
-	A Quick Game – Interactive drag-and-drop game to learn healthy vs unhealthy foods.
+Projects: Highlights of key projects including: 
+1) BayAirportRides – A comprehensive database design for an airport ride app.
+2) ResumeReadyRoll – A frontend design project to help users create resumes quickly.
+3) A Quick Game – Interactive drag-and-drop game to learn healthy vs unhealthy foods.
 
 Photography: A gallery showcasing my photography work.
 
